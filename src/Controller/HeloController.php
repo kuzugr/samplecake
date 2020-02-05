@@ -7,10 +7,11 @@ class HeloController extends AppController
 {
     public function index()
     {
-        $this->autoRender = false;
-        echo "<html><head></head><body>";
-        echo "<h1>Hello!</h1>";
-        echo "<p>これは、サンプルで作成したページです。</p>";
-        echo "</body></html>";
+        $str = $this->request->getData('text1');
+        $msg = 'typed: ' . $str;
+        if ($str == null)
+            { $msg = "please type..."; }
+        $this->set('message', $msg);
     }
 }
+
