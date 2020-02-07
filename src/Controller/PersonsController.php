@@ -37,9 +37,7 @@ class PersonsController extends AppController
         $this->set('person', $person);
         if ($this->request->is('post')) {
             $validator = new Validator();
-            $validator->add(
-                'age','comparison',['rule' =>['comparison','>',20]]
-            );
+            $validator->greaterThan('age', 20);
             $errors = $validator->errors($this->request->getData());
             if (!empty($errors)){
                 $this->Flash->error('comparison error');
