@@ -4,3 +4,17 @@ CREATE TABLE persons (
   age INT,
   mail VARCHAR(150)
 );
+
+CREATE TABLE members (
+   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   name VARCHAR(100) NOT NULL,
+   mail VARCHAR(100)
+);
+
+
+CREATE TABLE messages (
+   id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   members_id INT NOT NULL,
+   title VARCHAR(100) NOT NULL,
+   comment TEXT
+);
