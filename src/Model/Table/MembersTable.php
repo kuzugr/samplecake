@@ -35,6 +35,10 @@ class MembersTable extends Table
         $this->setTable('members');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
+
+        $this->hasMany('Messages', [
+            'foreignKey' => 'members_id'
+        ]);
     }
 
     /**
