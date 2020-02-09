@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78f0813d2e19252372610ff0834d4122",
+    "content-hash": "74a67732852470df8ab3e6ebb2a73d1c",
     "packages": [
         {
             "name": "aura/intl",
@@ -149,23 +149,23 @@
         },
         {
             "name": "cakephp/chronos",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "779054d4c7ca88fc086b2cdd1f02aaf0df9ccb01"
+                "reference": "e1044d27cabf12d19097b436001aa96a3c2e4b0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/779054d4c7ca88fc086b2cdd1f02aaf0df9ccb01",
-                "reference": "779054d4c7ca88fc086b2cdd1f02aaf0df9ccb01",
+                "url": "https://api.github.com/repos/cakephp/chronos/zipball/e1044d27cabf12d19097b436001aa96a3c2e4b0a",
+                "reference": "e1044d27cabf12d19097b436001aa96a3c2e4b0a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
             "require-dev": {
-                "cakephp/cakephp-codesniffer": "dev-next",
+                "cakephp/cakephp-codesniffer": "^4.0",
                 "phpbench/phpbench": "^1.0@dev",
                 "phpunit/phpunit": "^8.0"
             },
@@ -200,7 +200,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-12-01T01:32:36+00:00"
+            "time": "2020-02-08T02:38:43+00:00"
         },
         {
             "name": "cakephp/migrations",
@@ -1719,12 +1719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "fb93036a70c9520cab99b46723ebc8f2e6fd82a6"
+                "reference": "c56886ac36f71b9b7f335ae767ddabcabf96e84a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/fb93036a70c9520cab99b46723ebc8f2e6fd82a6",
-                "reference": "fb93036a70c9520cab99b46723ebc8f2e6fd82a6",
+                "url": "https://api.github.com/repos/composer/composer/zipball/c56886ac36f71b9b7f335ae767ddabcabf96e84a",
+                "reference": "c56886ac36f71b9b7f335ae767ddabcabf96e84a",
                 "shasum": ""
             },
             "require": {
@@ -1746,8 +1746,8 @@
                 "symfony/console": "2.8.38"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "phpunit/phpunit-mock-objects": "^2.3 || ^3.0"
+                "phpspec/prophecy": "^1.10",
+                "symfony/phpunit-bridge": "^3.4"
             },
             "suggest": {
                 "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
@@ -1791,7 +1791,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-01-28T13:22:11+00:00"
+            "time": "2020-02-07T21:33:39+00:00"
         },
         {
             "name": "composer/semver",
@@ -4006,16 +4006,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "6.1.3",
+            "version": "6.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "c8f2e2be77bdd6fda2ae4123e3d2690d99a805d1"
+                "reference": "d767b5e302ff096327466c97fec3cb57f6d16086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/c8f2e2be77bdd6fda2ae4123e3d2690d99a805d1",
-                "reference": "c8f2e2be77bdd6fda2ae4123e3d2690d99a805d1",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/d767b5e302ff096327466c97fec3cb57f6d16086",
+                "reference": "d767b5e302ff096327466c97fec3cb57f6d16086",
                 "shasum": ""
             },
             "require": {
@@ -4024,10 +4024,10 @@
                 "squizlabs/php_codesniffer": "^3.5.4"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "0.5.0",
-                "jakub-onderka/php-parallel-lint": "1.0.0",
-                "phing/phing": "2.16.2",
-                "phpstan/phpstan": "0.11.19|0.12.8",
+                "dealerdirect/phpcodesniffer-composer-installer": "0.6.2",
+                "grogy/php-parallel-lint": "1.1.0",
+                "phing/phing": "2.16.3",
+                "phpstan/phpstan": "0.11.19|0.12.9",
                 "phpstan/phpstan-phpunit": "0.11.2|0.12.6",
                 "phpstan/phpstan-strict-rules": "0.11.1|0.12.2",
                 "phpunit/phpunit": "7.5.18|8.5.2"
@@ -4043,7 +4043,7 @@
                 "MIT"
             ],
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
-            "time": "2020-02-01T17:48:45+00:00"
+            "time": "2020-02-05T21:17:34+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
