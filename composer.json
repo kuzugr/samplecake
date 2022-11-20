@@ -16,7 +16,7 @@
         "cakephp/cakephp-codesniffer": "4.0.1",
         "cakephp/debug_kit": "4.0.5",
         "josegonzalez/dotenv": "3.2.0",
-        "phpunit/phpunit": "8.5.2",
+        "phpunit/phpunit": "9.5.26",
         "psy/psysh": "@stable"
     },
     "suggest": {
